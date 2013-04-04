@@ -1,0 +1,42 @@
+
+*
+{
+    padding: 0;
+    margin: 0;
+}
+
+body
+{
+    background-image: url(/static/images/Paper02.jpg);
+    font: 16px/2em "Open Sans Condensed", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color:#666;
+}
+
+h1, h2, h3, h4, h5, h6
+{
+    font-family: 'Open Sans Condensed', Georgia, serif;
+    color: #333;
+    margin-bottom: 0.6em;
+}
+
+h1
+{
+    font-size: 30px;
+}
+
+h2
+{
+    font-size: 25px;
+    font-weight: normal;
+}
+
+h3
+{
+    font-size: 18px;
+    font-weight: normal;
+}
+
+[contenteditable="true"]
+{
+    outline: medium none;
+}

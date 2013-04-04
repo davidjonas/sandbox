@@ -1,0 +1,30 @@
+
+.block
+{
+    margin: 10px;
+    padding: 10px;
+    background-color: white;
+    box-shadow: 1px 0 3px #ccc;
+    -moz-box-shadow: 1px 0 3px #ccc;
+    -webkit-box-shadow: 1px 0 3px #ccc;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=2, Direction=135, Color='#CCCCCC')";
+    filter: progid:DXImageTransform.Microsoft.Shadow(Strength=2, Direction=135, Color='#CCCCCC');
+    width: auto;
+    position: relative;
+}
+
+#saveButton
+{
+    position: absolute;
+    top:5px;
+    right:35px;
+    cursor: pointer;
+}
+
+#clearButton
+{
+    position: absolute;
+    top:5px;
+    right:5px;
+    cursor: pointer;
+}
